@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawat Restaurant</title>
+    <style>
+        body {
+            background-color: rgb(9, 114, 149);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .navbar li {
+            margin: 4px;
+            font-size: 17px;
+            color: brown;
+            border: solid 2px rgb(64, 64, 232);
+            padding: 4px;
+            background-color: rgb(232, 216, 91);
+            float: left;
+            border-radius: 8px;
+        }
+
+        .navbar li:hover {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:20px;
+            cursor: pointer;
+            color:rgb(0, 0, 0);
+        }
+        #search{
+            float:right;
+            padding:8px 50px;
+        }
+        input{
+            width:140px;
+        }
+        .navbar {
+            border: solid 3px firebrick;
+            height: 65px;
+            background-color: rgb(65, 208, 215);
+            border-radius: 30px;
+            box-sizing: border-box;
+        }
+        button:hover{
+            font-size:16px;
+            font-weight: bold;
+            background-color:rgb(142, 144, 242);
+            cursor:pointer;
+        }
+        h2{
+            color:aquamarine;
+            text-align: center;
+            font-style: italic;
+            margin-bottom:0px;
+        }
+        h3{
+            margin:0px;
+            text-align:center;
+            font-size:30px;
+            color:burlywood;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .container{
+            border:solid 3px black;
+            margin:7px;
+            padding: 2px 8px;
+            background-color: rgb(102, 160, 160);
+            float:left;
+            width:30%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Cart</li>
+                <li>Help</li>
+                <li>About us</li>
+                <div id="search">
+                    <input type="text" placeholder="Search item">
+                    <button>Go</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <marquee direction="right">
+        <h2>Welcome to Mukerian's No.1 Restaurant</h2>
+        </marquee>
+        <h3><u>Dawat</u></h3>
+        <div class="container" id="kitchen">
+            <h4>Kitchen</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum harum minima rerum illum odio aliquam exercitationem neque natus quae quibusdam qui laudantium corrupti beatae soluta ipsum, facilis, voluptatum assumenda magni.</p>
+        </div>
+
+        <div class="container" id="Table">
+             <h4>Tables</h4>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum harum minima rerum illum odio aliquam exercitationem neque natus quae quibusdam qui laudantium corrupti beatae soluta ipsum, facilis, voluptatum assumenda magni.</p>
+        </div>
+
+        <div class="container" id="Parking">          
+            <h4>Parking</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum harum minima rerum illum odio aliquam exercitationem neque natus quae quibusdam qui laudantium corrupti beatae soluta ipsum, facilis, voluptatum assumenda magni.</p>
+        </div>
+    </main>
+</body>
+
+</html>
